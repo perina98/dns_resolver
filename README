@@ -1,0 +1,9 @@
+### Popis
+Tento program je jednoduchý DNS program ktorý dokáže filtrovať domény na základe predo definovaneho blacklistu.
+
+### Spustenie DNS
+./dns -s server \[-p port\] -f filter_file
+
+### Spustenie testov
+python test.py domains blacklist port
+alebo make test
